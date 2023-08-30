@@ -27,15 +27,20 @@ int main() {
 
 
 void insertionSort(int L[], int n) {
-    int key, j;
+    int aux, k;
     for (int i = 1; i < n; i++) {
-        key = L[i];
-        j = i - 1;
-        
-        while (j >= 0 && L[j] > key) {
-            L[j + 1] = L[j];
-            j = j - 1;
+        aux = L[i];
+        k = i - 1;
+
+        while (aux < L[k] && k > 0) {
+            L[k + 1] = L[k];
+            k = k - 1;
         }
-        L[j + 1] = key;
+        if (L[k] <= aux) {
+            L[k + 1] = aux;
+        } else {
+            L[k + 1] = L[k];
+            L[k] = aux;
+        }
     }
 }
