@@ -11,8 +11,8 @@ int main() {
     int n = sizeof(L) / sizeof(L[0]); 
     
     cout << "Arreglo original: ";
-    for (int i = 0; i < n; i++) {
-        cout << L[i] << " ";
+    for (int u: L) {
+        cout << u << " ";
     }
     cout << endl;
 
@@ -20,12 +20,10 @@ int main() {
     //varianteBurbuja(L, n);
 
     cout << "Arreglo ordenado: ";
-    for (int i = 0; i < n; i++) {
-        cout << L[i] << " ";
+    for (int u: L) {
+        cout << u << " ";
     }
     cout << endl;
-    
-    delete [] L;
 
     return EXIT_SUCCESS;
 }
