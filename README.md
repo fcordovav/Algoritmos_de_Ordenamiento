@@ -1,1 +1,4 @@
-Guardar los algoritmos de ordenamiento
+Guardar los algoritmos de ordenamiento.  
+
+# Costo
+burbuja = **O($n$)**
