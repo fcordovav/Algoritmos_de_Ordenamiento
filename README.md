@@ -1,8 +1,10 @@
-Guardando los algoritmos de ordenamiento que conozco hasta el monento ya que pueden ser utiles.   
+Guardando los algoritmos de ordenamiento que conozco hasta el momento ya que pueden ser utiles.   
 
-# Costos
-burbuja = **Θ($n²$)** ➔ Fácil comprensión y programación. Es el método más ineficiente.  
-insercion = **Θ($n²$)** ➔ Recomendable solo cuando $n$ es pequeño. Este algoritmo se comporta **levemente** mejor que burbuja.  
-seleccion = **Θ($n²$)** ➔ Aunque es más rápido que burbuja e insercion.  
-quicksort = **Θ($n$·log($n$))** ➔ Es muy eficiente si **$n$** es grande. El peor caso sigue siendo **Θ($n²$)**.   
-heapsort = **Θ($n$·log($n$))** ➔ En todos los casos el tiempo es el mismo.  
+# Costos en el peor caso
+burbuja = **Θ($n²$)**   
+insercion = **Θ($n²$)**  
+seleccion = **Θ($n²$)**   
+quicksort = **Θ($n²$)**   
+heapsort = **Θ($n$·log($n$))**   
+mergesort = **Θ($n$·log($n$))**     
+bucketsort = **Θ($n²$)**   
