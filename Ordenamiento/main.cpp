@@ -20,7 +20,8 @@ int main() {
     //quickSort(L, 0, n - 1);
     //heapSort(L, n);
     //mergeSort(L, 0, n - 1);
-    bucketSort(L, n);
+    //bucketSort(L, n);
+    bogosort(L, n);
 
     cout << "Arreglo ordenado: ";
     for (int u: L) {

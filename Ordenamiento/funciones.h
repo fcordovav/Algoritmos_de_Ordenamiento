@@ -21,7 +21,9 @@ void fusionar(int L[], int izquierda, int medio, int derecha);
 
 void bucketSort(int L[], int n);
 
-
+void bogosort(int a[], int n);
+void shuffle(int a[], int n);
+bool isSorted(int a[], int n);
 
 
 
